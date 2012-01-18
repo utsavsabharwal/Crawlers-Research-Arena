@@ -1,0 +1,35 @@
+python converter.py 1
+python fetcher.py
+rm input/*
+python converter.py 2
+python fetcher.py
+rm input/*
+python converter.py 3
+python fetcher.py
+rm input/*
+python converter.py 4
+python fetcher.py
+rm input/*
+python converter.py 5
+python fetcher.py
+rm input/*
+python converter.py 6
+python fetcher.p
+rm input/*
+python converter.py 7
+python fetcher.py
+rm input/*
+python converter.py 8
+python fetcher.py
+rm input/*
+python converter.py 9
+python fetcher.py
+rm input/*
+python converter.py 10
+python fetcher.py
+rm input/*
+python converter.py 11
+python fetcher.py
+rm input/*
+
+

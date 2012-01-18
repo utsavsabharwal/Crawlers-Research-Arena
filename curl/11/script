@@ -1,0 +1,47 @@
+mail -s "Curl Crawling 1" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 1
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 2" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 2
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 3" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 3
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 4" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 4
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 5" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 5
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 6" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 6
+python fetcher.p
+rm input/*
+mail -s "Curl Crawling 7" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 7
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 8" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 8
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 9" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 9
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 10" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 10
+python fetcher.py
+rm input/*
+mail -s "Curl Crawling 11" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Starting"
+python converter.py 11
+python fetcher.py
+rm input/*
+mail -s "Done Curl Crawling" utsav.sabharwal@nextag.com,jyadav@nextag.com -a ""<<< "Completed"
+
+

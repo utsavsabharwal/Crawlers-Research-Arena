@@ -1,0 +1,666 @@
+
+
+<html>
+<title>AALens - Good! bargain Contact Lens from Johnson and Johnson , Ciba vision , Bausch and Lomb , Cooper Vision. Cheap Contact Lenses</title>
+<META NAME="Keywords" CONTENT="Cheap Contact Lens, Cheap Contact Lenses, Daily lenses, monthly lenses, color lenses, colored lenses, Acuvue, Ciba Lens, Johnson and Johnson, Ciba vision, Bausch and Lomb, Cooper Vision">
+<META NAME="Description" CONTENT="We provide cheap and reliable contact lens replenishing service">
+<link rel="alternate" type="application/rss+xml" title="AAlens Lastest Promotions" href="http://www.aalens.com/rss/rss.xml" />
+<link rel="stylesheet" type="text/css" href="public/style.css">
+<link rel="shortcut icon" href="img/AALensLogo_Small.ico">
+<SCRIPT SRC="public/fieldValidation.js" LANGUAGE="JavaScript"></script>
+<SCRIPT SRC="public/functions.js" LANGUAGE="JavaScript"></script>
+
+<body topmargin="0" leftmargin="0">
+<table width="775" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan=3>
+      <table bordercolor="#ffffff" height=62 cellspacing=0 cellpadding=0 width="773" align=center border=1>
+  <tr bgcolor="#ffffff" bordercolor="#cccccc">
+    <td height="60" width="162" align="center"><a href="home.asp"><IMG SRC="img/AALensLogoT.jpg" ALT="AAlens Home Page" border=0></a>
+    </td>
+    <td colspan=3>
+      
+        &nbsp;&nbsp;Welcome Guest!, your ID is G-1021071
+    </td>
+    <td rowspan="2" height="82" width="197" align="center" bordercolor="#cccccc">
+  <!--   <a href="http://www.shopping.com/xMR-AAlens.com~MRD-307430~S-1" target="_blank"><img src="http://www.shopping.com/merchant_logo?ID=307430" width="197" height="82" border="0" alt="Read AAlens' Reviews"/></a>-->
+     <!--<img src="img/products_acuvue2_small.jpg" ALT="Ad">-->
+    </td>
+  </tr>
+  <tr bgcolor=#f4f4f4 bordercolor=#cccccc>
+    <td height="40" width="162" align="center" valign="center"> 
+      <form method=post action="home.asp" name="header">Currency:
+	  <select class=select1 name=webCurrency onchange="submit()">
+            <option value=USD selected>USD</option>
+            <option value=EURO >EURO</option>
+          </select>
+ 	  <input type="hidden" name="SearchKey" size="20" value="">
+	  <input type="hidden" name="HeaderChoice" size="20" value="">
+	  <input type="hidden" name="ContactLensID" size="20" value="63">
+      </form>
+    </td>
+    <td width="490" colspan=3>&nbsp;&nbsp;<!--width 447-->
+      <a href="home.asp?HeaderChoice=LensIndex&SearchKey=" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('LensIndex','','img/ButHigh_LensIndex.gif',1)"><img name="LensIndex" border="0" src="img/ButNoHigh_LensIndex.gif" width="80" height="35"></a><a href="home.asp?HeaderChoice=WebBasket&SearchKey=" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('WebBasket','','img/ButHigh_Viewcart.gif',1)"><img name="WebBasket" border="0" src="img/ButNoHigh_Viewcart.gif" width="80" height="35"></a><a href="home.asp?HeaderChoice=ReOrder&SearchKey=" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ReOrder','','img/ButHigh_ReOrder.gif',1)"><img name="ReOrder" border="0" src="img/ButNoHigh_ReOrder.gif" width="80" height="35"></a><a href="home.asp?HeaderChoice=CheckOrder&SearchKey=" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('CheckOrder','','img/ButHigh_CheckOrder.gif',1)"><img name="CheckOrder" border="0" src="img/ButNoHigh_CheckOrder.gif" width="80" height="35"></a><a href="home.asp?HeaderChoice=Personalize&SearchKey=" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Personalize','','img/ButHigh_Myaccount.gif',1)"><img name="Personalize" border="0" src="img/ButNoHigh_Myaccount.gif" width="80" height="35"></a><a href="home.asp?headerchoice=FAQ" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Help','','img/ButHigh_Help.gif',1)"><img name="Help" border="0" src="img/ButNoHigh_Help.gif" width="80" height="35"></a>
+    </td>
+  </tr>
+</table>
+    </td>
+  </tr>
+  <tr>
+    <td width="170" valign="top">
+      
+
+<SCRIPT LANGUAGE="JavaScript">
+function ProductNavSubmit(){
+  formRef=document.ProductNav
+
+  v_SearchKey = formRef.SearchKey.value;
+  if(isWhitespace(v_SearchKey)){alert("Please enter search string");return false;}
+
+  formRef.action = "home.asp";
+  formRef.submit();
+}
+function LensCatNavSubmit(){
+  formRef=document.LensCatNav
+
+  formRef.action = "home.asp";
+  formRef.submit();
+}
+function VendorNavSubmit(){
+  formRef=document.VendorNav
+
+  formRef.action = "home.asp";
+  formRef.submit();
+}
+</script>
+<table width="166" border="1" cellspacing="1" cellpadding="5" bordercolor="#ffffff">
+<!--  <tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+      <a href="http://www.aalens.com/optinmailsubscription.aspx" target="new">Promotion & Newsletters</a>
+      <br><blink><font color=red><b>NEW</b></font></blink>
+    </td>
+  </tr>-->
+    <tr>
+    <td colspan="2" bordercolor="#cccccc">
+      <a href="home.asp">Click Here For Our Monthly Promotions and Offers</a> 
+      </td>
+  </tr>
+   <tr>
+    <td colspan="2" bordercolor="#cccccc">
+      <a href="http://www.aalens.com/home.asp?headerchoice=ClearanceSales">Click Here For Our Clearance Sales</a> 
+      </td>
+  </tr>
+  <tr bordercolor="#ffffff"> 
+    <td colspan="2" valign="top" height="50" bordercolor="#cccccc">
+      <FORM NAME="ProductNav" METHOD="POST" ACTION="home.asp">
+      <font face="Verdana, Arial, Helvetica, sans-serif">Search Here</font><br>
+      <input type="text" name="SearchKey" size="20" maxlength="30" value=""><IMG SRC="img/gobutton.gif" ALT="GO!" onclick="ProductNavSubmit()">
+      <input type="hidden" name="HeaderChoice" size="20" value="">
+      <input type="hidden" name="ContactLensID" size="20" value="63">
+      </FORM>
+    </td>
+  </tr>
+      
+  <tr>
+    <td colspan="2" bordercolor="#cccccc">
+      <b>Search Tips!</b><br>
+      To search, simply key in partial or full descriptions of the products.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bordercolor="#cccccc">
+      <FORM NAME="LensCatNav" METHOD=POST ACTION="home.asp">
+      <font face="Verdana, Arial, Helvetica, sans-serif">Category</font><br>
+      <input type="hidden" name="HeaderChoice" size="20" value="LensIndex">
+      <select name="LensCatID">
+	  <option value='3' >1-3 Month Disposable</option>
+	  
+	  <option value='9' >Bifocal</option>
+	  
+	  <option value='8' >Colored Lenses</option>
+	  
+	  <option value='1' >Daily Disposable</option>
+	  
+	  <option value='11' >Spectacle Frame</option>
+	  
+	  <option value='6' >Toric</option>
+	  </select><IMG SRC="img/gobutton.gif" ALT="GO!" onclick="LensCatNavSubmit()">
+      </FORM>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bordercolor="#cccccc">
+      <FORM NAME="VendorNav" METHOD=POST ACTION="home.asp">
+      <font face="Verdana, Arial, Helvetica, sans-serif">Brand</font><br>
+      <input type="hidden" name="HeaderChoice" size="20" value="LensIndex">
+      <select name="VendorID">
+	  <option value='1' >Bausch & Lomb</option>
+	  
+	  <option value='2' >Ciba Vision</option>
+	  
+	  <option value='13' >Clearvue</option>
+	  
+	  <option value='3' >Cooper Vision</option>
+	  
+	  <option value='4' >Johnson & Johnson</option>
+	  
+	  <option value='14' >LinkSkin</option>
+	  </select><IMG SRC="img/gobutton.gif" ALT="GO!" onclick="VendorNavSubmit()">
+      </FORM>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+      <a href="http://www.rbsworldpay.com" target="new"><IMG SRC="img/worldpaylogo.gif" ALT="Payment Power By WorldPay" border="0"></a><br>
+    <a href="http://www.mastercard.com" target="new"><IMG SRC="img/mastercard.gif" ALT="Mastercard Payments Supported By WorldPay" border="0"></a>
+    <a href="http://www.visa.com" target="new"><IMG SRC="img/visa.gif" ALT="Visa Payments Supported By WorldPay" border="0"></a>
+    <br><a href="http://www.visa.com" target="new"><IMG SRC="img/VISA_DEBIT.gif" ALT="Visa Debit Payments Supported By WorldPay" border="0"></a>
+    </td>
+  </tr>
+ <tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+  <a href="home.asp?headerchoice=Partners">View AAlens Ratings</a>
+  	</td>
+  </tr>
+<!--
+ <tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+	
+	<a href="http://www.bizrate.com/ratings_guide/cust_reviews__mid--76215.html" target="bizrate.com"> <img src="http://medals.bizrate.com/medals/dynamic/76215_medal.gif" alt="Click here to see ratings" width="125" height="73" ALIGN="top" border="0" target="_blank"></a>
+	
+    </td>
+  </tr>
+<tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+	<a href="http://www.shopping.com/xMR-AAlens.com~MRD-307430~S-1" ><img src="http://www.shopping.com/merchant_logo?ID=307430" width="197" height="82" border="0"alt="Read Your Store Reviews" /></a><a href="http://www.shopping.com/xDN-Personal Care" ><img src="https://sc.dealtime.com/cctool/files/spacer.gif" width="1" height="1" border="0"alt="" /></a>
+	</td>
+  </tr>
+    <tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+	<a href="http://www.resellerratings.com/seller11295.html" target="_blank"><img src="http://www.resellerratings.com/images/rr-graphics/graphic3.gif" width="124" height="88" border="0" alt="Click here to see ratings"></a>
+	</td>
+  </tr>-->
+
+  <tr>
+    <td colspan="2" align="center" bordercolor="#cccccc">
+      Any Questions or query please contact us at <a href="mailto:info@aalens.com">info@aalens.com</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" bordercolor="#cccccc">
+      We take the pain out of ordering your contact lenses with our <b>easy-to-use interface</b>.  Contact lenses are delivered to your doorstep in just a few clicks.<br><br>
+      You save $$$ shopping with us, knowing that every <a href="home.asp?headerchoice=Guarantee">transaction is safe</a>.<br><br>
+      With our <a href="home.asp?headerchoice=Guarantee">30-day No Questions Asked Money Back Guarantee</a>, there is simply no reason not to shop at AALens.com!<br><br>
+     FTC (Federal Trade Commission) has included <a href="home.asp?headerchoice=Guarantee">AALens.com in the WORKING PAPER April 2006</a><br><br><a href="home.asp?headerchoice=Guarantee"><IMG SRC="img/rssbutton.jpg" ALT="RSS" border="0"></a><a href="home.asp?headerchoice=Guarantee"> AALens RSS</a>
+     </td>
+  </tr>
+</table>
+    </td>
+    <td width="435" valign="top">
+      
+<SCRIPT LANGUAGE="JavaScript">
+function add_Order(){
+
+  var formRef=document.add;
+  var v_LQtyOrder,v_RQtyOrder,v_TQtyOrder,v_TotalOrderValue;
+  var v_ItemUSDPrice,v_PerOrderLimit,v_ShippingCostPerItem,v_CurrentOrderValue;
+
+  v_LQtyOrder = parseFloat(formRef.LQtyOrder.value);
+  v_RQtyOrder = parseFloat(formRef.RQtyOrder.value);
+
+  v_ItemUSDPrice = parseFloat(formRef.ItemUSDPrice.value);
+  v_PerOrderLimit = parseFloat(formRef.PerOrderLimit.value);
+  v_ShippingCostPerItem = parseFloat(formRef.ShippingCostPerItem.value);
+  v_CurrentOrderValue = parseFloat(formRef.CurrentOrderValue.value);
+
+  v_TQtyOrder = v_LQtyOrder + v_RQtyOrder;
+  v_TotalOrderValue = parseFloat((v_TQtyOrder * v_ShippingCostPerItem)) + parseFloat((v_TQtyOrder * v_ItemUSDPrice)) + v_CurrentOrderValue;
+
+  //var v_PromoQty;
+  //v_PromoQty = parseFloat(formRef.PromoQty.value);
+ // if( mod (v_TQtyOrder, v_PromoQty) == 0){alert("You have order right quantity for promotion");return false;}
+  
+  //alert(v_TQtyOrder);
+  //alert(v_ItemUSDPrice);
+  //alert(v_ShippingCostPerItem);
+  //alert(v_TotalOrderValue);
+  //alert(v_PerOrderLimit);
+  if(v_TQtyOrder == 0){alert("Please select your order quantity");return false;}
+  //if(v_TotalOrderValue > v_PerOrderLimit){alert("Your order has exceeded per-order limit, please reduce quantity");return false;}
+
+  //-- Begin Add Promotion module --//
+  
+  //-- End Add Promotion module --//
+
+  formRef.action = "home.asp";
+  formRef.submit();
+}
+</script>
+<table width="433" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td colspan="2">
+      <IMG SRC="img/greenbluearrow.gif" ALT=""><a href="home.asp?HeaderChoice=LensIndex">&nbsp;Select Contact Lens&nbsp;&nbsp;</a><IMG SRC="img/greenbluearrow.gif" ALT="">&nbsp;Order Page
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" class="header">
+      <h2>
+        SofLens Daily Disposable For Astigmatism<br>
+        <!-- Begin Add Promotion module -->
+	
+	<!-- End Add Promotion module -->
+        <font color="#0066CC">USD&nbsp; 
+	$<font color="black">25.00</font>
+	/
+	<font color="red">30</font> lenses per Box</font><br>
+	<!--Min 4 Box-->
+      </h2>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" align="center"><IMG SRC="img/products/soflensdailiesasti.jpg" ALT="SofLens Daily Disposable For Astigmatism"></td>
+  </tr>
+
+  <tr>
+    <td>
+      &nbsp;Your Prescriptions:
+      <FORM METHOD=POST NAME=add>
+      <TABLE border="1" cellpadding="2" cellspacing="1" bordercolor="#FFFFFF">
+        <TR bordercolor="#B7B7B7" bgcolor="#99FFFF">
+          <TD width="60" class="aa_title">Eye
+	    <input type="hidden" name="HeaderChoice" value="WebBasket">
+	    <input type="hidden" name="WebBasketBehaviour" value="AddItem">
+	    <input type="hidden" name="ContactLensID" value="63">
+	    <input type="hidden" name="LensCatID" value="6">
+	    <input type="hidden" name="SearchKey" size="20" value="">
+	    <input type="hidden" name="ItemUSDPrice" size="20" value="25">
+	    <input type="hidden" name="PerOrderLimit" size="20" value="380">
+	    <input type="hidden" name="ShippingCostPerItem" size="20" value="1.5">
+	    <input type="hidden" name="CurrentOrderValue" size="20" value="0">
+
+            <!-- Begin Add Promotion module -->
+	    <input type="hidden" name="PromoPrice" size="20" value="">
+	    <input type="hidden" name="PromoQty" size="20" value="">
+	    <input type="hidden" name="PromoMaxQty" size="20" value="">
+	    <!-- End Add Promotion module -->
+	  </TD>
+  	  <TD width="60" class="aa_title">Sphere(Power)</TD>
+	
+          <TD width="60" class="aa_title">Cylinder</TD>
+	  <TD width="60" class="aa_title">Axis</TD>
+	
+	  <TD width="60" class="aa_title">Base Curve</TD>
+	  <TD width="60" class="aa_title">Diameter</TD>
+	  <TD width="60" class="aa_title">Quantity</TD>
+        </TR>
+
+        <TR bordercolor="#B7B7B7" bgcolor="#99CCFF">
+	  <TD class="aa_content">Right<br>Eye(OD)</TD>
+  	  <TD class="aa_content"><select name="RSPHOrder">
+    <option value='-9.00'  >-9.00</option>
+  
+    <option value='-8.50'  >-8.50</option>
+  
+    <option value='-8.00'  >-8.00</option>
+  
+    <option value='-7.50'  >-7.50</option>
+  
+    <option value='-7.00'  >-7.00</option>
+  
+    <option value='-6.50'  >-6.50</option>
+  
+    <option value='-6.00'  >-6.00</option>
+  
+    <option value='-5.75'  >-5.75</option>
+  
+    <option value='-5.50'  >-5.50</option>
+  
+    <option value='-5.25'  >-5.25</option>
+  
+    <option value='-5.00'  >-5.00</option>
+  
+    <option value='-4.75'  >-4.75</option>
+  
+    <option value='-4.50'  >-4.50</option>
+  
+    <option value='-4.25'  >-4.25</option>
+  
+    <option value='-4.00'  >-4.00</option>
+  
+    <option value='-3.75'  >-3.75</option>
+  
+    <option value='-3.50'  >-3.50</option>
+  
+    <option value='-3.25'  >-3.25</option>
+  
+    <option value='-3.00'  >-3.00</option>
+  
+    <option value='-2.75'  >-2.75</option>
+  
+    <option value='-2.50'  >-2.50</option>
+  
+    <option value='-2.25'  >-2.25</option>
+  
+    <option value='-2.00'  >-2.00</option>
+  
+    <option value='-1.75'  >-1.75</option>
+  
+    <option value='-1.50'  >-1.50</option>
+  
+    <option value='-1.25'  >-1.25</option>
+  
+    <option value='-1.00'  >-1.00</option>
+  
+    <option value='-0.75'  >-0.75</option>
+  
+    <option value='-0.50'  >-0.50</option>
+  
+    <option value='-0.25'  >-0.25</option>
+  
+    <option value='0.00'  selected>0.00</option>
+  </select></TD>
+	
+	  <!-- Begin Added and modify 050119 -->
+	  
+	    <TD class="aa_content"><select name="RCYLOrder">
+    <option value='-1.75'  >-1.75</option>
+  
+    <option value='-1.25'  >-1.25</option>
+  
+    <option value='-0.75'  >-0.75</option>
+  </select></TD>
+	  
+	  <!-- End Added and modify 050119 -->
+	  <!-- Begin Added and modify 040923 -->
+	  
+	    <TD class="aa_content"><select name="RAXISOrder">
+    <option value='20' >20</option>
+  
+    <option value='90' >90</option>
+  
+    <option value='160' >160</option>
+  
+    <option value='180' >180</option>
+  </select></TD>
+	  
+	  <!-- End Added and modify 040923 -->
+	
+	  <TD class="aa_content"><select name="RBaseCurveOrder">
+    <option value='8.6' >8.6</option>
+  </select></TD>
+	  <TD class="aa_content"><select name="RDiameterOrder">
+    <option value='14.2' >14.2</option>
+  </select></TD>
+	  <TD class="aa_content"><select name="RQtyOrder">
+    <option value='0' selected>0</option>
+  
+    <option value='1' >1</option>
+  
+    <option value='2' >2</option>
+  
+    <option value='3' >3</option>
+  
+    <option value='4' >4</option>
+  
+    <option value='5' >5</option>
+  
+    <option value='6' >6</option>
+  
+    <option value='7' >7</option>
+  
+    <option value='8' >8</option>
+  
+    <option value='9' >9</option>
+  
+    <option value='10' >10</option>
+  
+    <option value='11' >11</option>
+  
+    <option value='12' >12</option>
+  
+    <option value='13' >13</option>
+  
+    <option value='14' >14</option>
+  
+    <option value='15' >15</option>
+  
+    <option value='16' >16</option>
+  
+    <option value='17' >17</option>
+  
+    <option value='18' >18</option>
+  
+    <option value='19' >19</option>
+  
+    <option value='20' >20</option>
+  </select></TD>
+        </TR>
+
+        <TR bordercolor="#B7B7B7" bgcolor="#99CCFF">
+	  <TD class="aa_content">Left<br>Eye(OS)</TD>
+  	  <TD class="aa_content"><select name="LSPHOrder">
+    <option value='-9.00'  >-9.00</option>
+  
+    <option value='-8.50'  >-8.50</option>
+  
+    <option value='-8.00'  >-8.00</option>
+  
+    <option value='-7.50'  >-7.50</option>
+  
+    <option value='-7.00'  >-7.00</option>
+  
+    <option value='-6.50'  >-6.50</option>
+  
+    <option value='-6.00'  >-6.00</option>
+  
+    <option value='-5.75'  >-5.75</option>
+  
+    <option value='-5.50'  >-5.50</option>
+  
+    <option value='-5.25'  >-5.25</option>
+  
+    <option value='-5.00'  >-5.00</option>
+  
+    <option value='-4.75'  >-4.75</option>
+  
+    <option value='-4.50'  >-4.50</option>
+  
+    <option value='-4.25'  >-4.25</option>
+  
+    <option value='-4.00'  >-4.00</option>
+  
+    <option value='-3.75'  >-3.75</option>
+  
+    <option value='-3.50'  >-3.50</option>
+  
+    <option value='-3.25'  >-3.25</option>
+  
+    <option value='-3.00'  >-3.00</option>
+  
+    <option value='-2.75'  >-2.75</option>
+  
+    <option value='-2.50'  >-2.50</option>
+  
+    <option value='-2.25'  >-2.25</option>
+  
+    <option value='-2.00'  >-2.00</option>
+  
+    <option value='-1.75'  >-1.75</option>
+  
+    <option value='-1.50'  >-1.50</option>
+  
+    <option value='-1.25'  >-1.25</option>
+  
+    <option value='-1.00'  >-1.00</option>
+  
+    <option value='-0.75'  >-0.75</option>
+  
+    <option value='-0.50'  >-0.50</option>
+  
+    <option value='-0.25'  >-0.25</option>
+  
+    <option value='0.00'  selected>0.00</option>
+  </select></TD>
+	
+	  <!-- Begin Added and modify 050119 -->
+	  
+	    <TD class="aa_content"><select name="LCYLOrder">
+    <option value='-1.75'  >-1.75</option>
+  
+    <option value='-1.25'  >-1.25</option>
+  
+    <option value='-0.75'  >-0.75</option>
+  </select></TD>
+	  
+	  <!-- End Added and modify 050119 -->
+  	  <!-- Begin Added and modify 040923 -->
+	  
+	    <TD class="aa_content"><select name="LAXISOrder">
+    <option value='20' >20</option>
+  
+    <option value='90' >90</option>
+  
+    <option value='160' >160</option>
+  
+    <option value='180' >180</option>
+  </select></TD>
+	  
+	  <!-- End Added and modify 040923 -->
+	
+	  <TD class="aa_content"><select name="LBaseCurveOrder">
+    <option value='8.6' >8.6</option>
+  </select></TD>
+	  <TD class="aa_content"><select name="LDiameterOrder">
+    <option value='14.2' >14.2</option>
+  </select></TD>
+	  <TD class="aa_content"><select name="LQtyOrder">
+    <option value='0' selected>0</option>
+  
+    <option value='1' >1</option>
+  
+    <option value='2' >2</option>
+  
+    <option value='3' >3</option>
+  
+    <option value='4' >4</option>
+  
+    <option value='5' >5</option>
+  
+    <option value='6' >6</option>
+  
+    <option value='7' >7</option>
+  
+    <option value='8' >8</option>
+  
+    <option value='9' >9</option>
+  
+    <option value='10' >10</option>
+  
+    <option value='11' >11</option>
+  
+    <option value='12' >12</option>
+  
+    <option value='13' >13</option>
+  
+    <option value='14' >14</option>
+  
+    <option value='15' >15</option>
+  
+    <option value='16' >16</option>
+  
+    <option value='17' >17</option>
+  
+    <option value='18' >18</option>
+  
+    <option value='19' >19</option>
+  
+    <option value='20' >20</option>
+  </select></TD>
+        </TR>
+	<TR>
+	  <TD align="right" colspan="7">
+	    <input type="button" value="Add To Cart" onClick="add_Order()">
+	  </TD>
+	</TR>
+      </TABLE>
+      </FORM>
+      <TABLE border="1" cellpadding="2" cellspacing="1" bordercolor="#FFFFFF">
+        <TR bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+          <TD>
+	    <font color="red"><b>Important notes for ordering contact lenses</b></font>
+            <UL>
+	     <LI>Please double check your contact lenses' <b>Sphere (Power)</b> that you have ordered.
+	  <LI><b>Color Lens</b> orders will have additional wait time of 10 to 20 working days as it is made to order.
+      	      <LI><b>Plus '+' power</b> orders will have additional wait time of 10 to 20 working days as it is made to order.
+	      <LI><b>Toric lense</b> with <b>Axis</b> orders will have additional wait time of 10 to 20 working days as it is made to order.
+	      <LI>Our <b>delivery time</b> for USA will normally take from 3 working days to 10 working days.
+	      <LI>Please note that some email program has a spam filter, add "orders@aalens.com" to your address book or safe list to make sure that you receive the emails send by AAlens.
+              
+	        <LI><b>International shipping cost per item/quantity</b> is USD&nbsp;1.50
+	        <LI>Per Order Limit is USD&nbsp;380.00
+	    </UL>
+<font color="red"><b>Important notes for ordering spectacle frame</b></font>
+            <UL>
+	     <LI>Three easy steps to buy your glasses: 1. Get an eye test at a high street optician, 2. Buy online, using your prescription, 3. Receive your glasses
+	 </UL>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <b><u>Descriptions</u></b><br>
+      SofLens Daily Disposable For Astigmatism<br>Design features: Advanced Aspheric Optics Innovative Lo-Torque Design.<br>Material: hilafilcon B.<br>Water content: 59%.<br>Visibility tint: Light Blue.<br><br><u><b>Price Comparison</b></u><br><table border="1" cellpadding="2" cellspacing="1" bordercolor="#FFFFFF"><tr bordercolor="#B7B7B7" bgcolor="#99FFFF" align="center"><td>Our Price<br>$25.00</td><td>Retail Price<br>$32.00</td><td>You Save<br>$7.00</td></tr></table>
+    </td>
+  </tr>
+</table>
+
+
+    </td>
+    <td width="170" valign="top">
+<!--<table width="168" border="1" cellspacing="1" cellpadding="5" bordercolor="#ffffff">
+  <tr bordercolor="#cccccc"> 
+    <td  class="aa_title"><font face="Verdana, Arial, Helvetica, sans-serif"><marquee><b>Promotional item! While Stock last</b></marquee></font></td>
+  </tr>
+</table>-->
+</td>
+  </tr>
+  <tr>
+    <td colspan=3>
+      <br>
+<br>
+<hr>
+<table width="750" border="0" cellpadding="4" cellspacing="1">
+  <TR>
+    <TD width="144" align="center">
+      <a href="home.asp?headerchoice=FAQ">FAQ</a>
+    <TD>
+    <TD width="145" align="center">
+      <a href="home.asp?headerchoice=Guarantee">30-Day Guarantee</a>
+    <TD>
+    <TD width="144" align="center">
+      <a href="home.asp?headerchoice=Partners">Partners And Ratings</a>
+    <TD>
+  </TR>
+</TABLE>
+<table width=750>
+  <tr>
+    <td width=370>
+      <font size="1" face="verdana,arial,geneva,helvetica">
+      <b>Copyright</b> &copy;  2012 <b><a href="http://www.aalens.com/home.asp"><font color="#000099">AALens.com</font></b></a>. All Rights reserved</font>
+    </td>
+    <td width=320 align="left">
+      <font size="1" face="verdana,arial,geneva,helvetica">Best viewed on Windows platform in a screen resolution<br>of 800 pixels by 600 pixels, with the latest versions of</font>
+    </td>
+      <td width=60 align="right">
+      <IMG SRC="img/ie.jpg" border=0>&nbsp;&nbsp;<IMG SRC="img/mozi.jpg" border=0></font>
+    </td>
+  </tr>
+</table>    
+    </td>
+  </tr>
+</table>
+</body>
+</html>
