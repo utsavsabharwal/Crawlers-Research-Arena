@@ -50,8 +50,10 @@ def crawl(urls, sbook, fbook, num_conn=500):
         c.fp = None
         c.setopt(pycurl.FOLLOWLOCATION, 1)
         c.setopt(pycurl.MAXREDIRS, 3)
-        c.setopt(pycurl.CONNECTTIMEOUT, 120)
+        c.setopt(pycurl.CONNECTTIMEOUT, 60)
         c.setopt(pycurl.TIMEOUT, 300)
+        c.setopt(pycurl.LOW_SPEED_LIMIT, 0)
+        c.setopt(pycurl.LOW_SPEED_TIME, 0)
         c.setopt(pycurl.NOSIGNAL, 1)
         m.handles.append(c)
 
