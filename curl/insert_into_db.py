@@ -113,8 +113,17 @@ if(con):
 	except Exception, ex:
 	    send_email("Error in Db Updation: Failed to canonicalize metadata", metadata)
 	    continue	
-        
-        query = """insert into url_queue set is_disabled = 0, next_fetch = 0, last_fetch = 0,  url="%s", url_hash="%s", rdomain="%s", product_id="%s", metadata="%s" """%(url, url_hash, rdomain, product_id, metadata)
+        try:
+	    query = """insert into url_queue set is_disabled = 0, next_fetch = 0, last_fetch = 0,  url="%s", url_hash="%s", rdomain="%s", product_id="%s", metadata="%s" """%(url, url_hash, rdomain, product_id, metadata)
+	except UnicodeDecodeError, ex:
+	    msg = "This happens when url has some unsuported charactset. Check url. "+ex[1]+url
+	    send_email("Error in Db Updation: UnicodeDecodeError", msg)
+	    continue
+	except Exception, ex:
+	    msg = ex[1] + url
+	    send_email("Error in Db Updation: Unknow error in query formation", msg)
+	    continue
+		
 	print query
         if(execute(con, cursor, query)):
             success.write(query)
