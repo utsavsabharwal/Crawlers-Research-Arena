@@ -93,8 +93,7 @@ if(con):
         url = url.strip()
         original_url, final_url = url.split("\t")
         metadata = '{ "original_url": "' + original_url + '"}'
-	url_hash = hashlib.sha256(url).hexdigest()
-        rdomain = get_rdomain_from_url(url)
+	rdomain = get_rdomain_from_url(url)
 	if not rdomain:
 	    send_email("Error in Db Updation: Failed to find domain name", url)
 	    continue
@@ -113,6 +112,7 @@ if(con):
 	except Exception, ex:
 	    send_email("Error in Db Updation: Failed to canonicalize metadata", metadata)
 	    continue	
+	url_hash = hashlib.sha256(url).hexdigest()
         try:
 	    query = """insert into url_queue set is_disabled = 0, next_fetch = 0, last_fetch = 0,  url="%s", url_hash="%s", rdomain="%s", product_id="%s", metadata="%s" """%(url, url_hash, rdomain, product_id, metadata)
 	except UnicodeDecodeError, ex:
