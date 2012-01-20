@@ -88,7 +88,6 @@ failure = open("failure.log","a+")
         
 if(con):
     urls=open("insert","r").readlines()
-    print "not ok"        
     for url in urls:
         url = url.strip()
         original_url, final_url = url.split("\t")
@@ -136,7 +135,7 @@ if(con):
             failure.flush()
 	    print "not ok"
 else:
-	send_mail("Db Updation Error: Could not connect","")
+	send_email("Db Updation Error: Could not connect","")
         
         
 success.close()
