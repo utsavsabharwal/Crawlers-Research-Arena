@@ -1,15 +1,16 @@
-#!/usr/bin/env python
-#coding:utf-8
-# Author:   Utsav Sabharwal
-# Purpose: To spread list of urls to different domain files
-# Created: Tuesday 10 January 2012
-
 f=open("urls").readlines()
+domains = open("domains").readlines()
 for x in f:
     temp = x.split("\t")
-    filename = "input/"+ temp[0]
-    f1 = open(filename, "a+")
-    f1.write((temp[1]))
-    f1.close()
+    try:
+	    for y in domains:
+		if(x.find(y.strip())>-1):
+	    		filename = "input/"+ temp[0]
+	    		f1 = open(filename, "a+")
+	    		f1.write((x))
+	    		f1.close()
+			break
+    except Exception, ex:
+	    print ex
 
 

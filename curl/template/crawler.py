@@ -1,27 +1,23 @@
 import md5
+import sys
+import time
 
-def crawl(urls, sbook, fbook, num_conn=500):
-    #! /usr/bin/env python
-    # -*- coding: iso-8859-1 -*-
-    # vi:ts=4:et
-    # $Id: retriever-multi.py,v 1.29 2005/07/28 11:04:13 mfx Exp $
+def crawl(urls, sbook, fbook, num_conn=100):
 
-    #
-    # Usage: python retriever-multi.py <file with URLs to fetch> [<# of
-    #          concurrent connections>]
-    #
-
+    success_count = 0
+    failure_count = 0
+    start_time = time.time()
     import sys
     import pycurl
 
-    # We should ignore SIGPIPE when using pycurl.NOSIGNAL - see
-    # the libcurl tutorial for more info.
+    # We should ignore SIGPIPE when using pycurl.NOSIGNAL
     try:
         import signal
         from signal import SIGPIPE, SIG_IGN
         signal.signal(signal.SIGPIPE, signal.SIG_IGN)
     except ImportError:
         pass
+    
 
     # Make a queue with (url, filename) tuplev").hes
     queue = []
@@ -29,8 +25,8 @@ def crawl(urls, sbook, fbook, num_conn=500):
         url = url.strip()
         if not url or url[0] == "#":
             continue
-        filename = str(md5.new(url).hexdigest())+".uss"
-        queue.append((url, filename))
+        filename = str(url.split("\t")[1])+".uss"
+        queue.append((url.split("\t")[2], filename))
 
 
     # Check args
@@ -38,8 +34,7 @@ def crawl(urls, sbook, fbook, num_conn=500):
     num_urls = len(queue)
     num_conn = min(num_conn, num_urls)
     assert 1 <= num_conn <= 10000, "invalid number of concurrent connections"
-    print "PycURL %s (compiled against 0x%x)" % (pycurl.version, pycurl.COMPILE_LIBCURL_VERSION_NUM)
-    print "----- Getting", num_urls, "URLs using", num_conn, "connections -----"
+    print "I got ", num_urls, " URLs to process.. ."
     
 
     # Pre-allocate a list of curl objects
@@ -50,8 +45,10 @@ def crawl(urls, sbook, fbook, num_conn=500):
         c.fp = None
         c.setopt(pycurl.FOLLOWLOCATION, 1)
         c.setopt(pycurl.MAXREDIRS, 3)
-        c.setopt(pycurl.CONNECTTIMEOUT, 120)
+        c.setopt(pycurl.CONNECTTIMEOUT, 60)
         c.setopt(pycurl.TIMEOUT, 300)
+        c.setopt(pycurl.LOW_SPEED_LIMIT, 0)
+        c.setopt(pycurl.LOW_SPEED_TIME, 0)
         c.setopt(pycurl.NOSIGNAL, 1)
         m.handles.append(c)
 
@@ -73,20 +70,24 @@ def crawl(urls, sbook, fbook, num_conn=500):
             c.filename = filename
             c.url = url
         # Run the internal curl state machine for the multi stack
+	
         while 1:
+	    print "ok"
             ret, num_handles = m.perform()
             if ret != pycurl.E_CALL_MULTI_PERFORM:
                 break
+	    print "not ok"
         # Check for curl objects which have terminated, and add them to the freelist
+	print "okoko"
         while 1:
-            
+
             num_q, ok_list, err_list = m.info_read()
-            
+
             for c in ok_list:
                 c.fp.close()
                 c.fp = None
                 m.remove_handle(c)
-                print "Success:", c.filename, c.url, c.getinfo(pycurl.EFFECTIVE_URL)
+                success_count+=1
                 pattern = "-->"+str(c.filename)+":::"+str(c.url)+":::"+str(c.getinfo(pycurl.EFFECTIVE_URL))+chr(10)
                 sbook.write(pattern)
                 sbook.flush()
@@ -95,7 +96,7 @@ def crawl(urls, sbook, fbook, num_conn=500):
                 c.fp.close()
                 c.fp = None
                 m.remove_handle(c)
-                print "Failed: ", c.filename, c.url, errno, errmsg
+                failure_count+=1
                 pattern = "-->"+str(c.filename)+":::"+str(c.url)+":::"+str(errno)+":::"+str(errmsg)+chr(10)
                 fbook.write(pattern)
                 fbook.flush()
@@ -103,6 +104,9 @@ def crawl(urls, sbook, fbook, num_conn=500):
             num_processed = num_processed + len(ok_list) + len(err_list)
             if num_q == 0:
                 break
+        msg = "Total Processed:"+str(num_processed)+", Ok:"+str(success_count)+", Not Ok:"+str(failure_count)+", Time:"+str(time.time()-start_time)
+        #sys.stdout.write("\r"+str(msg))
+        #sys.stdout.flush()
         # Currently no more I/O is pending, could do something in the meantime
         # (display a progress bar, etc.).
         # We just call select() to sleep until some more data is available.
@@ -116,3 +120,4 @@ def crawl(urls, sbook, fbook, num_conn=500):
             c.fp = None
         c.close()
     m.close()
+    return num_processed, success_count, failure_count
