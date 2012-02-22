@@ -24,6 +24,6 @@ cd output
 python upload.py
 python query.py
 mysql -uroot -h10.241.31.96 spider < query
-sed -i 's/-phase-/'$phase'/g' /home/spider/production/veetwo/veetwo/lib/jobs/fetcher.py
+sed -i 's/-phase-)/'$phase'/g' /home/spider/production/veetwo/veetwo/lib/jobs/fetcher.py
 cd /home/spider/production/veetwo
 paster job_runner --configuration-file machine/ec2/spider/ini/spider.ini --job-name=fetcher:Starter&

@@ -1,4 +1,4 @@
-phase = str("-phase-")
+phase = str(phase)
 import gzip
 from cStringIO import StringIO
 import boto.exception
